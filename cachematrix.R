@@ -2,7 +2,7 @@
 # This function contains a list of functions that can be called by the second function. 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
-    # Sets the contents of the matrix(x) to those of matrix y. The contents of matrix Y are those passed into x$set() 
+    # Sets the contents of the matrix(x) to those of matrix y. The contents of matrix y are those passed into x$set() 
     set <- function(y) {
       x <<- y
       m <<- NULL
